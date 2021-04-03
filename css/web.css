@@ -844,7 +844,7 @@ body{
 /* start comtact */
 
 .contact {
-    /* background: url(../image/2.jpg); */
+    background: url(../image/2.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

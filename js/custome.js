@@ -5,7 +5,7 @@ $(function () {
     
     $(".header").css({ background: "url(../image/1.jpg)" });
     // $(".testin").css({ background: "url(../image/2.jpg)" });
-    // $(".contact").css({ background: "url(../image/2.jpg)" });
+    $(".contact").css({ background: "url(../image/2.jpg)" });
     // trigger
     $('html').niceScroll({ cursorcolor: '#f7600e' });
     //chang header hight
@@ -40,28 +40,16 @@ $(function () {
     }
     checkClients();
     $('.testin i').click(function () {
-
         if ($(this).hasClass('fa-chevron-right')) {
-
             $('.testin .active').fadeOut(100, function () {
-
                 $(this).removeClass('active').next('.client').addClass('active').fadeIn();
-            
-                checkClients();
-            
+                checkClients();            
             });
-
         } else {
-
             $('.testin .active').fadeOut(100, function () {
-
                 $(this).removeClass('active').prev('.client').addClass('active').fadeIn();
-            
-            });
-            
+            });           
                 checkClients();
-            
-        }
-
+            }
     });
 }); 
