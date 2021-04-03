@@ -12,6 +12,11 @@ $(function () {
             scrollTop: $('.features').offset().top
         }, 1000);
     });
+    $('.header .work ').click(function () {
+        $('html, body').animate({
+            scrollTop: $('.our-works').offset().top
+        }, 1000);
+    });
     //shw hidden
     $('.showmore').click(function () {
         $('.our-works .hidden').removeClass('hidden').fadeIn();

@@ -61,7 +61,7 @@ body{
 /* start header*/
 
 .header {
-    background: url(/image/clouds-cold-flow-691037\ \(1\).jpg);
+    background: url(/image/1.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -272,11 +272,6 @@ body{
     color: #888;
 }
 
-
-
-
-
-
 @media (min-width: 1440px) { 
 
     .features {
@@ -331,7 +326,7 @@ body{
 /* start subscribe*/
 
 .subscribe {
-    background: url(/image/1920px-_T1A9069-1-1.jpg);
+    background: url(../image/2.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
