@@ -5,7 +5,7 @@ $(function () {
     
     $(".header").css({ background: "url(../image/1.jpg)" });
     // $(".testin").css({ background: "url(../image/2.jpg)" });
-    $(".contact").css({ background: "url(../image/2.jpg)" });
+    // $(".contact").css({ background: "url(../image/2.jpg)" });
     // trigger
     $('html').niceScroll({ cursorcolor: '#f7600e' });
     //chang header hight
