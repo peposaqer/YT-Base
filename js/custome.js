@@ -26,11 +26,11 @@ $(function () {
         $('.our-works .hidden').removeClass('hidden').fadeIn();
         $(".our-works .showmore").addClass("hidden");
     });
-    // $(".showless").click(function () {
-    //     $(".our-works .hidden").addClass("hidden").fadeIn();
-    //     $(".our-works .showless").addClass("hidden");
-    //     $(".our-works .showmore").addClass("hidden");
-    // });
+    $(".showless").click(function () {
+        $(".our-works .hidden").addClass("hidden").fadeIn();
+        $(".our-works .showless").addClass("hidden");
+        $(".our-works .showmore").removeClass("hidden");
+    });
     // check testin
     var leftArrow = $('.testin .fa-chevron-left'),
         rightArrow = $('.testin .fa-chevron-right');
