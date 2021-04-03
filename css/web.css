@@ -61,7 +61,7 @@ body{
 /* start header*/
 
 .header {
-    background: url(../image/1.jpg);
+    background-image: url(../image/1.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -594,7 +594,7 @@ body{
 /* start testimonials */ 
 
 .testin {
-    background: url(../image/2.jpg);
+    background-image: url(../image/2.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
