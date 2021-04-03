@@ -61,7 +61,7 @@ body{
 /* start header*/
 
 .header {
-    background: url(/image/1.jpg);
+    /* background: url(../image/1.jpg); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
