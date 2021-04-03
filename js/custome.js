@@ -2,7 +2,6 @@
 
 $(function () {
     'use strict';
-    
     // trigger
     $('html').niceScroll({ cursorcolor: '#f7600e' });
     //chang header hight
