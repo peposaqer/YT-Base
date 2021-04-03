@@ -3,7 +3,7 @@
 $(function () {
     'use strict';
     
-    $(".header").css({ background: "url(image/1.jpg)" });
+    $(".header").css({ background: "url(../image/1.jpg)" });
     // trigger
     $('html').niceScroll({ cursorcolor: '#f7600e' });
     //chang header hight
